@@ -6,23 +6,71 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
-			<string>Denies W/X/P/ON to Contacts</string>
+			<string>Deny Office apps access to the System Address Book</string>
 			<key>PayloadDisplayName</key>
-			<string>Office Contact Access - Deny</string>
+			<string>Contacts Deny</string>
 			<key>PayloadIdentifier</key>
-			<string>3713EA12-67B7-4A5A-8B84-081DC136BAAD</string>
+			<string>122A47FF-2199-4315-9A19-E830E095B792</string>
 			<key>PayloadOrganization</key>
-			<string>Microsoft</string>
+			<string>com.microsoft.office</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>7CD5356D-0296-44CA-8A88-0F70561673C4</string>
+			<string>32EF683A-F341-49C8-B50C-3F01C5472AD4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
 			<dict>
 				<key>AddressBook</key>
 				<array>
+					<dict>
+						<key>Allowed</key>
+						<false/>
+						<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Excel"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.microsoft.Excel</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<false/>
+						<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.onenote.mac"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.microsoft.onenote.mac</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<false/>
+						<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Powerpoint"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.microsoft.Powerpoint</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<false/>
+						<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Word"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.microsoft.Word</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 					<dict>
 						<key>Allowed</key>
 						<false/>
@@ -76,17 +124,17 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Denies W/X/P/ON to Contacts</string>
+	<string>Deny Office apps access to the System Address Book</string>
 	<key>PayloadDisplayName</key>
-	<string>Office Contact Access - Deny</string>
+	<string>Contacts Deny</string>
 	<key>PayloadIdentifier</key>
-	<string>3713EA12-67B7-4A5A-8B84-081DC136BAAD</string>
+	<string>122A47FF-2199-4315-9A19-E830E095B792</string>
 	<key>PayloadOrganization</key>
-	<string>Microsoft</string>
+	<string>com.microsoft.office</string>
 	<key>PayloadType</key>
 	<string>com.apple.TCC.configuration-profile-policy</string>
 	<key>PayloadUUID</key>
-	<string>C8B13496-E195-45F1-8B81-1C9D28315630</string>
+	<string>10638EF9-5199-4A5C-A427-FAF33F969874</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>payloadScope</key>

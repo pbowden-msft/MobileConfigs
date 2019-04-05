@@ -6,17 +6,17 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
-			<string>Allows the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
+			<string>Allows Terminal and the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
 			<key>PayloadDisplayName</key>
 			<string>Jamf Controller for Microsoft AutoUpdate</string>
 			<key>PayloadIdentifier</key>
-			<string>939206D2-0576-4E26-8735-F258D99C2DB1</string>
+			<string>99263152-E15C-4FFD-8531-5FE4715DEA90</string>
 			<key>PayloadOrganization</key>
 			<string>com.microsoft.office</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>85BCBF6A-DCB9-4D4A-BB24-ACEDB32E2CA3</string>
+			<string>CFFA67D2-356D-4967-BC1D-1B0C3DDF04A7</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Services</key>
@@ -41,22 +41,40 @@
 						<key>IdentifierType</key>
 						<string>path</string>
 					</dict>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.autoupdate2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.autoupdate2</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Terminal" and anchor apple</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.Terminal</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Allows the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
+	<string>Allows Terminal and the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
 	<key>PayloadDisplayName</key>
 	<string>Jamf Controller for Microsoft AutoUpdate</string>
 	<key>PayloadIdentifier</key>
-	<string>939206D2-0576-4E26-8735-F258D99C2DB1</string>
+	<string>99263152-E15C-4FFD-8531-5FE4715DEA90</string>
 	<key>PayloadOrganization</key>
 	<string>com.microsoft.office</string>
 	<key>PayloadType</key>
 	<string>com.apple.TCC.configuration-profile-policy</string>
 	<key>PayloadUUID</key>
-	<string>8559F329-E2ED-4DDD-9F55-A70286E830E7</string>
+	<string>75E19B66-15A3-405B-9321-0530131BE29D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>payloadScope</key>

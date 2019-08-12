@@ -20,19 +20,6 @@
 						</dict>
 					</array>
 				</dict>
-				<key>com.microsoft.autoupdate2</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>SendAllTelemetryEnabled</key>
-								<false/>
-							</dict>
-						</dict>
-					</array>
-				</dict>
 			</dict>
 			<key>PayloadEnabled</key>
 			<true/>

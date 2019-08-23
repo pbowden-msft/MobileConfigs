@@ -19,7 +19,7 @@
 					<key>GroupingType</key>
 					<integer>0</integer>
 					<key>NotificationsEnabled</key>
-					<false/>
+					<true/>
 					<key>ShowInLockScreen</key>
 					<true/>
 					<key>ShowInNotificationCenter</key>
@@ -39,7 +39,7 @@
 					<key>GroupingType</key>
 					<integer>0</integer>
 					<key>NotificationsEnabled</key>
-					<false/>
+					<true/>
 					<key>ShowInLockScreen</key>
 					<true/>
 					<key>ShowInNotificationCenter</key>
@@ -59,7 +59,7 @@
 					<key>GroupingType</key>
 					<integer>0</integer>
 					<key>NotificationsEnabled</key>
-					<false/>
+					<true/>
 					<key>ShowInLockScreen</key>
 					<true/>
 					<key>ShowInNotificationCenter</key>
@@ -99,7 +99,7 @@
 					<key>GroupingType</key>
 					<integer>0</integer>
 					<key>NotificationsEnabled</key>
-					<false/>
+					<true/>
 					<key>ShowInLockScreen</key>
 					<true/>
 					<key>ShowInNotificationCenter</key>
@@ -114,6 +114,26 @@
 					<true/>
 					<key>BundleIdentifier</key>
 					<string>com.microsoft.OneDrive</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>GroupingType</key>
+					<integer>0</integer>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.microsoft.OneDrive-mac</string>
 					<key>CriticalAlertEnabled</key>
 					<false/>
 					<key>GroupingType</key>

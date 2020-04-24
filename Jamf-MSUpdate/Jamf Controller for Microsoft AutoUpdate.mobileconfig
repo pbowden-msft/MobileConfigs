@@ -8,9 +8,9 @@
 			<key>PayloadDescription</key>
 			<string>Allows Terminal and the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
 			<key>PayloadDisplayName</key>
-			<string>Jamf Controller for Microsoft AutoUpdate</string>
+			<string>Unsigned Jamf Controller for Microsoft AutoUpdate</string>
 			<key>PayloadIdentifier</key>
-			<string>99263152-E15C-4FFD-8531-5FE4715DEA90</string>
+			<string>99263152-E15C-4FFD-8531-5FE4715DEA99</string>
 			<key>PayloadOrganization</key>
 			<string>com.microsoft.office</string>
 			<key>PayloadType</key>
